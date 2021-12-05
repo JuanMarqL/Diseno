@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Formulario</title>
+</head>
+
+<body>
+
+  <!-- MENU -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">IES MAR DE CADIZ</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Noticias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Formulario</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Nosotros</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- FIN DE MENU -->
+
+  <div class="container-fluid" style="display:flex; flex-wrap: wrap;">
+    <div class="caja-izq" style="padding: 3em; width: 50%; display: flex;justify-content: center;align-items: center;">
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputName" class="form-label">Nombre</label>
+          <input type="text" class="form-control" placeholder="Juan" aria-label="First name">
+        </div>
+        <div class="col-md-6">
+          <label for="inputName" class="form-label">Apellidos</label>
+          <input type="text" class="form-control" placeholder="Fernandez" aria-label="Last name">
+        </div>
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Correo</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Direccion</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="C/ Bartalome Nº1">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Ciudad</label>
+          <input type="text" class="form-control" id="inputCity" placeholder="San Fernando">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">Actividades</label>
+          <select id="inputState" class="form-select">
+            <option selected>Opcion..</option>
+            <option>Futbol</option>
+            <option>Baloncesto</option>
+            <option>Padel</option>
+            <option>Ajedrez</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">CP</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Aceptar terminos y condiciones
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </form>
+    </div>
+    <div class="caja-dch" style="width: 50%; display: flex; justify-content: center; align-items: center;">
+      <img src="imagenes/undraw_Designer_girl_re_h54c.png" width="auto" alt="">
+    </div>
+  </div>
+ 
+
+    <!-- INICIO DE FOOTER -->
+    <footer>
+      <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom ">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Inicio</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Noticias</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Formulario</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Nosotros</a></li>
+          </ul>
+          <p class="text-center text-muted">© 2021 Tony y angel Diseño WEB</p>
+        </footer>
+      </div>
+    </footer>
+    <!-- FIN DEL FOOTER -->
+
+</body>
+
+</html>
